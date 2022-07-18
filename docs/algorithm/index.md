@@ -121,6 +121,7 @@ a_i,x_i<=10^9
 
 ```cpp
 #include<iostream>
+#include<vector>
 #include<map>
 using namespace std;
 int main(){
