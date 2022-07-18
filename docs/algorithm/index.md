@@ -6,7 +6,7 @@
 
 ## STLコンテナクラスを用いた計算量削減(C++を扱う人向け)
 
-この章では[APG4b AA - 3.03.STLのコンテナ](https://atcoder.jp/contests/apg4b/tasks/APG4b_aa)に書かれているコンテナの中から重要なコンテナを抜粋し，それらについての説明と応用をする章です．
+この章は[APG4b AA - 3.03.STLのコンテナ](https://atcoder.jp/contests/apg4b/tasks/APG4b_aa)に書かれているコンテナの中から重要なコンテナを抜粋し，それらについての説明と応用をする章です．
 
 ### 連想配列(map)
 
@@ -16,7 +16,7 @@
 
 宣言や値の格納，値の取り出しは以下のように行います．
 
-```c++
+```cpp
 #include<map> //連想配列用のヘッダファイル
 #include<iostream>
 #include<string>
