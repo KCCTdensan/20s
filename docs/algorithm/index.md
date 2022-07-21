@@ -150,7 +150,7 @@ int main(){
 }
 ```
 
-## [二分探索](/docs/algorithm/binary_search/index.md)
+## [二分探索](/binary_search/index.md)
 
 ソートされた配列の中から条件を満たす要素をO(logN)で求めることができるアルゴリズム
 
