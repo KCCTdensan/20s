@@ -150,9 +150,11 @@ int main(){
 }
 ```
 
-## [二分探索](/binary_search/index.md)
+## 二分探索
 
 ソートされた配列の中から条件を満たす要素をO(logN)で求めることができるアルゴリズム
+
+[解説](/docs/algorithm/binary_search/index.md)
 
 ## 深さ優先探索(DFS)
 
