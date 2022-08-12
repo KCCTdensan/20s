@@ -6,6 +6,7 @@ export default {
     nav: [
       { text: "works", link: "/works/" },
       { text: "d3bu.net", link: "https://d3bu.net" },
+      { text: "GitHub", link: "https://github.com/KCCTdensan/20s" },
     ],
   },
 }
