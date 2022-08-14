@@ -202,7 +202,7 @@ N以下の素数を高速に求めることができるアルゴリズム
 
 ある範囲に対して行う加減算や範囲内の最小・最大値の求めるクエリをO(logN)で行うことができるデータ構造
 
-## Wavelet-Matrix
+## Wavelet Matrix
 
 重要度 ☆- 難易度 ☆異次元
 
@@ -210,12 +210,12 @@ N以下の素数を高速に求めることができるアルゴリズム
 
 オーダーが配列の要素数に依存しないため，N=10^18でも問題なく動く他，できることもかなり多いという，やりたい放題なデータ構造
 
-弱点として，一度データを構築すると後から値を変更できないというものがあるが，Dynamic-Wavelet-Matrixを使うことで解決できる(ただしオーダーは大きくなる)
+弱点として，一度データを構築すると後から値を変更できないというものがあるが，Dynamic Wavelet Matrixを使うことで解決できる(ただしオーダーは大きくなる)
 
-Wavelet-Matrixの話が書いてあるサイト
+Wavelet Matrixの話が書いてあるサイト
 
 [ウェーブレット行列(wavelet matrix)](https://miti-7.hatenablog.com/entry/2018/04/28/152259)
 
-Dynamic-Wavelet-Matrixの話が書いてあるサイト
+Dynamic Wavelet Matrixの話が書いてあるサイト
 
 [動的ウェーブレット行列(dynamic wavelet matrix)](https://miti-7.hatenablog.com/entry/2019/02/01/143655)
