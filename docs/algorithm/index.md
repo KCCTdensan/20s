@@ -138,13 +138,25 @@ imos法を使う問題
 
 [ABC259 C-XX to XXX](https://atcoder.jp/contests/abc259/tasks/abc259_c)
 
-## 経路圧縮
+## 座標圧縮
 
 重要度 ☆- 難易度 ☆-
 
-ソート済みの配列において，その順番だけを記録する配列に直すアルゴリズム
+配列の要素を，配列内で何番目に小さいかの情報に置き換えるアルゴリズム
 
+例として
 
+```
+8 1 30 94 73 82
+```
+
+という配列に対して座標圧縮を行うと
+
+```
+1 0 2 5 3 4
+```
+
+という配列になる
 
 ## エラトステネスの篩
 
@@ -183,3 +195,27 @@ N以下の素数を高速に求めることができるアルゴリズム
 [ABC253 D-FizzBuzz Sum Hard](https://atcoder.jp/contests/abc253/tasks/abc253_d)
 
 [典型90問 004-Cross Sum(★2)](https://atcoder.jp/contests/typical90/tasks/typical90_d)
+
+## Segment Tree
+
+重要度 ☆- 難易度 ☆-
+
+ある範囲に対して行う加減算や範囲内の最小・最大値の求めるクエリをO(logN)で行うことができるデータ構造
+
+## Wavelet-Matrix
+
+重要度 ☆- 難易度 ☆異次元
+
+基本的な配列操作に加え，ある要素xは範囲内に何個存在するかや，範囲内にx以上の要素は何個あるか，範囲内の総和や最小・最大値など，ありとあらゆる操作をO(log(配列内の最大値))で行うことが出来るデータ構造
+
+オーダーが配列の要素数に依存しないため，N=10^18でも問題なく動く他，できることもかなり多いという，やりたい放題なデータ構造
+
+弱点として，一度データを構築すると後から値を変更できないというものがあるが，Dynamic-Wavelet-Matrixを使うことで解決できる(ただしオーダーは大きくなる)
+
+Wavelet-Matrixの話が書いてあるサイト
+
+[ウェーブレット行列(wavelet matrix)](https://miti-7.hatenablog.com/entry/2018/04/28/152259)
+
+Dynamic-Wavelet-Matrixの話が書いてあるサイト
+
+[動的ウェーブレット行列(dynamic wavelet matrix)](https://miti-7.hatenablog.com/entry/2019/02/01/143655)
