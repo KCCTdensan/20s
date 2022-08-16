@@ -8,6 +8,7 @@
 ## 2021年
 
 - d3bu.net 開設 : [KCCTdensan/d3bu.net](https://github.com/KCCTdensan/d3bu.net), [KCCTdensan/articles](https://github.com/KCCTdensan/articles)
+- 授業中の大音量録音 実施
 - シャンプー 実施
 - 自作OS : [dd-os.d3bu.net](https://dd-os.d3bu.net), [KCCTdensan/ddOS](https://github.com/KCCTdensan/ddOS)
 - 部室温度モニタ : [KCCTdensan/busitsu](https://github.com/KCCTdensan/busitsu), [d3bu.net/inner/infra/prom-pgdb/](https://d3bu.net/inner/infra/prom-pgdb/)
