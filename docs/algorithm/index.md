@@ -219,3 +219,6 @@ Wavelet Matrixの話が書いてあるサイト
 Dynamic Wavelet Matrixの話が書いてあるサイト
 
 [動的ウェーブレット行列(dynamic wavelet matrix)](https://miti-7.hatenablog.com/entry/2019/02/01/143655)
+
+<!-- 木構造を使う問題 -->
+<!-- [ABC209 D - Collision](https://atcoder.jp/contests/abc209/tasks/abc209_d) -->
