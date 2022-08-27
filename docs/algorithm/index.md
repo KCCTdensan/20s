@@ -124,6 +124,8 @@ imos法を使う問題
 
 [ABC261 D-Flipping and Bonus](https://atcoder.jp/contests/abc261/tasks/abc261_d)
 
+[ABC266 D-Snuke Panic (1D)](https://atcoder.jp/contests/abc266/tasks/abc266_d)
+
 [Educational DP Contest](https://atcoder.jp/contests/dp)
 
 ## ランレングス圧縮
