@@ -86,6 +86,8 @@ UnionFindを使う問題
 
 累積和を使う問題
 
+[ABC267 C-Index × A(Continuous ver.)](https://atcoder.jp/contests/abc267/tasks/abc267_c)
+
 [典型90問 010-Score Sum Queries(★2)](https://atcoder.jp/contests/typical90/tasks/typical90_j)
 
 ## imos法
@@ -125,6 +127,8 @@ imos法を使う問題
 [ABC261 D-Flipping and Bonus](https://atcoder.jp/contests/abc261/tasks/abc261_d)
 
 [ABC266 D-Snuke Panic (1D)](https://atcoder.jp/contests/abc266/tasks/abc266_d)
+
+[ABC267 D-Index × A(Not Continuous ver.)](https://atcoder.jp/contests/abc267/tasks/abc267_d)
 
 [Educational DP Contest](https://atcoder.jp/contests/dp)
 
