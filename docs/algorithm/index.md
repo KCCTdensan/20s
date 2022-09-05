@@ -78,7 +78,7 @@ UnionFindを使う問題
 
 [ABC259 D-Circumferences](https://atcoder.jp/contests/abc259/tasks/abc259_d)
 
-## 累積和
+## [累積和](/algorithm/cumulative_sum/)
 
 重要度 ☆3 難易度 ☆1
 
