@@ -177,3 +177,23 @@ int main(){
     return 0;
 }
 ```
+
+<!-- ## 問題3-1
+
+正解は
+
+1←logN←√N←N←NlogN←N^2←2^N←N!
+
+です．
+
+## 問題3-2
+
+正解は
+
+1. 1,logN,√N,N,NlogN,N^2,2^N
+2. 1,logN,√N,N
+3. 1,logN,√N,N,NlogN
+4. 1,logN
+5. 1,logN,√N,N,NlogN,N^2
+
+です． -->
