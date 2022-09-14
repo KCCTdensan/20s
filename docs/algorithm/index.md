@@ -10,9 +10,9 @@
 
 追記 パソコン甲子園対策用ページをここに載せておきます．
 
-<!-- [PCKで使えそうなもの C++編](/algorithm/pck/std/)
+[PCKで使えそうなもの C++編](/algorithm/pck/std/)
 
-[競プロで使えそうなライブラリ](/algorithm/pck/algo/)　 -->
+[競プロで使えそうなライブラリ](/algorithm/pck/algo/)　
 
 ## STLコンテナクラスを用いた計算量削減(C++を扱う人向け)
 
