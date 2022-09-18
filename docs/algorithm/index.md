@@ -42,6 +42,8 @@ Bit全探索を使う問題
 
 [ABC249 C-Just K](https://atcoder.jp/contests/abc249/tasks/abc249_c)
 
+[ABC269 C-Submask](https://atcoder.jp/contests/abc269/tasks/abc269_c)
+
 [典型90問 002-Encyclopedia of Parentheses(★3)](https://atcoder.jp/contests/typical90/tasks/typical90_b)
 
 ## 深さ優先探索(DFS)
