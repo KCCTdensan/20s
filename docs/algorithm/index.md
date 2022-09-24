@@ -8,13 +8,6 @@
 
 ~~あとこのページに書いてあるコードは動作確認しておりません.~~ コードは一応確認しました.
 
-
-<!-- 追記 パソコン甲子園対策用ページをここに載せておきます．
-
-[PCKで使えそうなもの C++編](/algorithm/pck/std/)
-
-[競プロで使えそうなライブラリ](/algorithm/pck/algo/)　 -->
-
 ## STLコンテナクラスを用いた計算量削減(C++を扱う人向け)
 
 重要度 ☆5 難易度 ☆1
@@ -43,7 +36,7 @@ Bit全探索を使う問題
 
 [ABC249 C-Just K](https://atcoder.jp/contests/abc249/tasks/abc249_c)
 
-<!-- [ABC269 C-Submask](https://atcoder.jp/contests/abc269/tasks/abc269_c) -->
+[ABC269 C-Submask](https://atcoder.jp/contests/abc269/tasks/abc269_c)
 
 [典型90問 002-Encyclopedia of Parentheses(★3)](https://atcoder.jp/contests/typical90/tasks/typical90_b)
 
