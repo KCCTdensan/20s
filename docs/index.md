@@ -7,3 +7,7 @@
 ## Works
 
 [/works/](/works/)に書いてます．
+
+## お役立ち記事
+
+- [LaTeX関連](/latex/)
