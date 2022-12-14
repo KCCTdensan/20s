@@ -9,6 +9,6 @@ Windows、WSLやpLaTeX系などでは再現できない場合があるかもし�
 
  - [パッケージ(.sty)をインストールする](/latex/styinst/)
 
-<!-- ## 資料作成系 -->
+## 資料作成系
 
- <!-- - [色付き枠で分類された資料を作る](/latex/tcolorbox/) -->
+ - [色付き枠で分類された資料を作る](/latex/tcolorbox/)

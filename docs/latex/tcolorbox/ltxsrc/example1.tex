@@ -1,0 +1,34 @@
+\documentclass[twocolumn, a4paper]{ltjsarticle}
+
+\usepackage[dvipsnames]{xcolor} % 色の名前を拡張
+\usepackage{tcolorbox} % 枠本体
+\tcbuselibrary{raster,skins,breakable,theorems} % 呪文
+
+\newenvironment{qbox}[1]{ % qbox環境を定義して使いやすく
+    \begin{tcolorbox}[
+        colframe = RoyalBlue,
+        colback = RoyalBlue!10!White,
+        title = {#1},
+        fonttitle = \bfseries,
+        breakable = true
+    ]
+}{
+    \end{tcolorbox}
+}
+
+\begin{document}
+
+\section{たしざん}
+たしざんを示す。
+\begin{qbox}{たしざん}
+    たしざんをする。
+    \begin{equation*}
+        \Biggl\lbrace
+        \begin{alignedat}{2}
+            1+1 &= 2 \\
+            2 &= 1+1
+        \end{alignedat}
+    \end{equation*}
+\end{qbox}
+
+\end{document}
