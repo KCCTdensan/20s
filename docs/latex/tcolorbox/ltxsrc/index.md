@@ -1,0 +1,248 @@
+# ソース
+
+[もどる](../)
+
+## 1個目
+
+```tex
+\documentclass[twocolumn, a4paper]{ltjsarticle}
+
+\usepackage[dvipsnames]{xcolor} % 色の名前を拡張
+\usepackage{tcolorbox} % 枠本体
+\tcbuselibrary{raster,skins,breakable,theorems} % 呪文
+
+\newenvironment{qbox}[1]{ % qbox環境を定義して使いやすく
+    \begin{tcolorbox}[
+        colframe = RoyalBlue,
+        colback = RoyalBlue!10!White,
+        title = {#1},
+        fonttitle = \bfseries,
+        breakable = true
+    ]
+}{
+    \end{tcolorbox}
+}
+
+\begin{document}
+
+\section{たしざん}
+たしざんを示す。
+\begin{qbox}{たしざん}
+    たしざんをする。
+    \begin{equation*}
+        \Biggl\lbrace
+        \begin{alignedat}{2}
+            1+1 &= 2 \\
+            2 &= 1+1
+        \end{alignedat}
+    \end{equation*}
+\end{qbox}
+
+\end{document}
+
+```
+
+## 2個目
+
+```tex
+\documentclass[twocolumn, a4paper]{ltjsarticle}
+
+\usepackage[dvipsnames]{xcolor} % 色の名前を拡張
+\usepackage{tcolorbox} % 枠本体
+\tcbuselibrary{raster,skins,breakable,theorems} % 呪文
+
+\newenvironment{qbox}[1]{ % qbox環境を定義して使いやすく
+    \begin{tcolorbox}[
+        colframe = RoyalBlue,
+        colback = RoyalBlue!10!White,
+        title = {#1},
+        fonttitle = \bfseries,
+        breakable = true
+    ]
+}{
+    \end{tcolorbox}
+}
+\newenvironment{warnbox}[1]{ % warnbox環境を新しく定義する
+    \begin{tcolorbox}[
+        colframe = Yellow!40!Orange,
+        colback = Yellow!20!White,
+        title = {#1},
+        fonttitle = \color{Black} \bfseries,
+        breakable = true
+    ]
+}{
+    \end{tcolorbox}
+}
+
+\begin{document}
+
+\section{たしざん}
+たしざんを示す。
+\begin{qbox}{たしざん}
+    たしざんをする。
+    \begin{equation*}
+        \Biggl\lbrace
+        \begin{alignedat}{2}
+            1+1 &= 2 \\
+            2 &= 1+1
+        \end{alignedat}
+    \end{equation*}
+
+\end{qbox}
+
+\begin{warnbox}{だめだよ}
+    これはまちがい。
+    \begin{alignat*}{1}
+        1+1 &= 0 \\
+        2 &= 2+1
+    \end{alignat*}
+\end{warnbox}
+
+\end{document}
+
+```
+
+## 3個目
+
+```tex
+\documentclass[twocolumn, a4paper]{ltjsarticle}
+
+\usepackage[dvipsnames]{xcolor} % 色の名前を拡張
+\usepackage{tcolorbox} % 枠本体
+\tcbuselibrary{raster,skins,breakable,theorems} % 呪文
+\usepackage{enumerate} % 箇条書き拡張
+
+\newenvironment{qbox}[1]{ % qbox環境を定義して使いやすく
+    \begin{tcolorbox}[
+        colframe = RoyalBlue,
+        colback = RoyalBlue!10!White,
+        title = {#1},
+        fonttitle = \bfseries,
+        breakable = true
+    ]
+}{
+    \end{tcolorbox}
+}
+\newenvironment{warnbox}[1]{ % warnbox環境を新しく定義する
+    \begin{tcolorbox}[
+        colframe = Yellow!40!Orange,
+        colback = Yellow!20!White,
+        title = {#1},
+        fonttitle = \color{Black} \bfseries,
+        breakable = true
+    ]
+}{
+    \end{tcolorbox}
+}
+\newenvironment{exambox}[1]{ % exambox環境を新しく定義する
+    \begin{tcolorbox}[
+        colframe = OliveGreen,
+        colback = ForestGreen!20!White,
+        title = {#1},
+        fonttitle = \bfseries,
+        breakable = true
+    ]
+}{
+    \end{tcolorbox}
+}
+\newenvironment{greaterbox}[1]{ % greaterbox環境を新しく定義する
+    \begin{tcolorbox}[
+        colframe = Maroon,
+        colback = Dandelion!20!Brown!10!White,
+        title = {#1},
+        fonttitle = \color{White} \bfseries,
+        breakable = true
+    ]
+}{
+    \end{tcolorbox}
+}
+
+\setlength{\columnseprule}{0.4pt} % 中央の線
+
+\begin{document}
+\title{たしざんワーク}
+\author{jnc-explosion}
+\date{}
+
+\twocolumn[
+    \vspace{-10em}
+    \maketitle
+
+    \begin{abstract}
+        \LaTeX は、いいよ。
+    \end{abstract}
+
+    \hrulefill
+]
+
+\section{たしざん}
+たしざんを示す。
+\begin{qbox}{たしざん}
+    たしざんをする。
+    \begin{equation*}
+        \Biggl\lbrace
+        \begin{alignedat}{2}
+            1+1 &= 2 \\
+            2 &= 1+1
+        \end{alignedat}
+    \end{equation*}
+
+\end{qbox}
+
+\begin{warnbox}{だめだよ}
+    これはまちがい。
+    \begin{alignat*}{1}
+        1+1 &= 0 \\
+        2 &= 2+1
+    \end{alignat*}
+\end{warnbox}
+
+\begin{exambox}{やってみよう}
+    これをつかって、もんだいをといてみよう。
+    \tcblower
+    \begin{enumerate}[(1).]
+        \item $1+1=$
+        \item $2+1=$
+        \item $3+1=$
+        \item $4+1=$
+        \item 
+        \begin{equation*}
+            \mbox{\hspace{-45px}}10\times\lim_{n \to \infty}{\frac{1}{n} \sum_{k=1}^{n}{f\left(\frac{k}{n}\right)}}+1
+        \end{equation*}
+        \item $6+1$
+        \item $7+1$
+        \item $8+1$
+        \item $9+1$
+    \end{enumerate}
+\end{exambox}
+
+\newpage
+
+\section{たしざんのおうよう}
+
+\begin{greaterbox}{より良いたしざんのために}
+    たしざんは、昔から人々を支えている。
+
+    古代文明では既に開発されていて、計量・測量に利用されてきた。
+    さんすう(X\hspace{-1.2pt}V\hspace{-1.2pt}I\hspace{-1.2pt}I\hspace{-1.2pt}I)の基礎にはたしざんが存在する。しかし、人々はたしざんについて特になにも思っていない。
+
+    ところで、計算凡間違省によると、自分の9割5分はたしざん間違いで応用問題を落としている。
+    また、その時にTwitter上で「たしざんできません」という呟きも確認されている。
+
+    これは、たしざんの無意識化によって「たしざんの風化」が始まっていることの大きな証拠である。
+
+    「たしざんの風化」は、我々の知らない内に、自分にのしかかっているのだ。しかも、この問題に気づいているテスト中の自分は、まだ少ない。
+
+    我々は、よりよい「たしざん」のために、何に取り組むべきだろうか。
+    \tcblower
+    \begin{enumerate}[Q1: ]
+        \item 「たしざんの風化」とは何でしょうか。
+        \item あなたができる、よりよい「たしざん」のための取り組みを答えなさい。
+        \item 作者は暇なのでしょうか。
+        \item たしざんは必ず失敗します。その理由を答えなさい。
+    \end{enumerate}
+\end{greaterbox}
+
+\end{document}
+
+```
