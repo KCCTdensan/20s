@@ -134,6 +134,8 @@ imos法を使う問題
 
 [Educational DP Contest](https://atcoder.jp/contests/dp)
 
+[典型90問 032-AtCoder Ekiden(★3) (N≦18のとき)](https://atcoder.jp/contests/typical90/tasks/typical90_af)
+
 ## ランレングス圧縮
 
 重要度 ☆- 難易度 ☆-
