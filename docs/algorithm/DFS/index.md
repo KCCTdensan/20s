@@ -39,4 +39,6 @@ DFSはこの手順を見たことがない頂点が無くなるまでor進める
 
 [問題文](https://hackmd.io/@kcctkyopro/BkeWngHss)
 
+$\sin x + \cos x$
+
 
