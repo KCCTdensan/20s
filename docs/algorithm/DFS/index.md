@@ -152,7 +152,7 @@ e((4))---f((5))
 
 実装例を示します。
 
-```c++
+```
 #include<bits/stdc++.h>
 using namespace std;
 
