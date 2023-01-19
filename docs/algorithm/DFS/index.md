@@ -174,7 +174,8 @@ int main(){
     int u,v;
     for(int i=0;i<M;i++){
         cin>>u>>v;
-        G[--u].push_back(--v);
+        u--;v--;
+        G[u].push_back(v);
         G[v].push_back(u);
     }
     int s,g;
