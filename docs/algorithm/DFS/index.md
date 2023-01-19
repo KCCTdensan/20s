@@ -140,3 +140,55 @@ c---d((6))
 
 e((4))---f((5))
 ```
+
+## 草案
+
+このグラフは以下の方法で探索すると良いです。
+
+1. 頂点$s$を読み取る
+2. 読み込んだ頂点からたどり着ける頂点を確認する、たどり着ける頂点がなければ一つ前の頂点に戻る
+3. たどり着ける頂点が頂点$g$ならその場で探索終了、そうでなければその頂点を読み込む
+4. 移動できる頂点がなくなるまで2と3を繰り返す
+
+実装例を示します。
+
+```c++
+#include<bits/stdc++.h>
+using namespace std;
+
+void DFS(int now,int gorl,vector<vector<int>> &G,vector<bool> &flag){
+    flag[now]=true;
+    if(flag[gorl])return;
+    for(auto x:G[now]){
+        if(!flag[x]){
+            DFS(x,gorl,G,flag);
+        }
+    }
+}
+
+int main(){
+    int N,M;
+    cin>>N>>M;
+    vector<vector<int>> G(N);
+    vector<bool> flag(N,false);
+    int u,v;
+    for(int i=0;i<M;i++){
+        cin>>u>>v;
+        G[--u].push_back(--v);
+        G[v].push_back(u);
+    }
+    int s,g;
+    cin>>s>>g;
+    s--;g--;
+    DFS(s,g,G,flag);
+    if(flag[g]){
+        cout<<"Yes"<<endl;
+    }
+    else{
+        cout<<"No"<<endl;
+    }
+    return 0;
+}
+```
+
+
