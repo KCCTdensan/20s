@@ -18,7 +18,17 @@
 
 - ラズパイクラスタ : [d3bu.net/dev/cluster/](https://d3bu.net/dev/cluster/)
 - ***部室GAMING*** : [KCCTdensan/GAMING](https://github.com/KCCTdensan/GAMING)
+- タイムカード 解体
+
+## 2023年
+
+- ラズパイクラスタ 死亡
+- ミニPCクラスタ : (記事を作成してください♡)
+- 冷蔵庫 導入 (グリス用)
+- 学生証 凍結
 
 ## 予定
 
 - エアコン水位計 : [KCCTdensan/water-level-monitor](https://github.com/KCCTdensan/water-level-monitor)
+- 新版部室温度モニタ
+- タイムカード復旧
