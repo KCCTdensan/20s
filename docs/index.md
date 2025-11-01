@@ -3,6 +3,7 @@
 ## 入門記事
 
 - [アルゴリズム入門](/algorithm/)
+- [半導体入門](/semiconductor/)
 
 ## Works
 
