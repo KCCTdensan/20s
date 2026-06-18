@@ -53,3 +53,7 @@
 * $1 \le M \le 100$
 * $1 \le T \le 1000$ （最大クロック周期）
 * $W_i, D_i$ は正の整数
+
+---
+
+[**回答はこちら**](/algorithm/DP_realuse/ans)
