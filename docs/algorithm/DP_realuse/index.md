@@ -56,4 +56,4 @@
 
 ---
 
-[**回答はこちら**](/algorithm/DP_realuse/ans)
+[**回答はこちら**](/algorithm/DP_realuse/ans/)
